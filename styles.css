@@ -99,7 +99,20 @@ main {
 
 @media only screen and (max-width: 500px) {
     main {
+        height: auto;
+        margin: 60px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .cards {
+        width: 340px;
         grid-template-columns: 1fr;
-        width: 375px;
+    }
+
+    p {
+        margin-bottom: 40px;
     }
 }
